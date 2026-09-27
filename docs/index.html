@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153e2d">
+  <meta name="description" content="Browse the Halal Pastures Farm vegetable market menu.">
+  <title>Market menu · Halal Pastures Farm</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header><div class="wrap brand">HALAL PASTURES <span>FARM</span></div></header>
+  <main class="wrap">
+    <div class="intro"><p class="eyebrow">FROM OUR FARM TO YOUR TABLE</p><h1>Market menu</h1><p>Find your favorites. Ask our team at the stand to order.</p></div>
+    <p id="notice" class="notice">Loading menu…</p>
+    <section aria-label="Filter vegetables" class="filters">
+      <label for="search">Find a vegetable</label><input id="search" type="search" placeholder="Search vegetables…">
+      <div id="categories" class="categories" role="group" aria-label="Vegetable categories"></div>
+      <label class="check"><input id="available" type="checkbox"> Available only</label>
+    </section>
+    <p id="results" role="status" aria-live="polite"></p>
+    <div id="products" class="grid"></div>
+    <button id="retry" hidden>Try again</button>
+    <noscript>Please enable JavaScript to view the menu, or ask our team for today’s selection.</noscript>
+    <footer>Halal Pastures Farm · Please confirm availability at the stand.</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+{
+  "demo": true,
+  "currency": "USD",
+  "updatedAt": "2026-09-27",
+  "products": [
+    {
+      "id": "carrots",
+      "name": "Carrots",
+      "category": "Roots",
+      "description": "Sweet, crunchy carrots for roasting or snacking.",
+      "price": 4,
+      "unit": "bunch",
+      "available": true,
+      "image": "./images/carrots.svg"
+    },
+    {
+      "id": "tomatoes",
+      "name": "Tomatoes",
+      "category": "Tomatoes",
+      "description": "Juicy tomatoes for salads, sandwiches, and sauces.",
+      "price": 5,
+      "unit": "lb",
+      "available": true,
+      "image": "./images/tomatoes.svg"
+    },
+    {
+      "id": "broccoli",
+      "name": "Broccoli",
+      "category": "Greens",
+      "description": "Tender florets and crisp stalks for steaming or roasting.",
+      "price": 4,
+      "unit": "head",
+      "available": true,
+      "image": "./images/broccoli.svg"
+    },
+    {
+      "id": "peppers",
+      "name": "Sweet peppers",
+      "category": "Peppers",
+      "description": "Crisp, sweet peppers for salads and the grill.",
+      "price": 3,
+      "unit": "each",
+      "available": true,
+      "image": "./images/peppers.svg"
+    },
+    {
+      "id": "eggplant",
+      "name": "Eggplant",
+      "category": "Eggplants",
+      "description": "Creamy when roasted; delicious grilled or baked.",
+      "price": 4,
+      "unit": "each",
+      "available": false,
+      "image": "./images/eggplant.svg"
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumbers",
+      "category": "Cucumbers",
+      "description": "Cool, crisp cucumbers for fresh salads.",
+      "price": 2,
+      "unit": "each",
+      "available": true,
+      "image": "./images/cucumber.svg"
+    }
+  ]
+}
